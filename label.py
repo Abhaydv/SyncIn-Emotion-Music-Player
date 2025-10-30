@@ -32,7 +32,7 @@ while inf_loop:
         text = emotion_dict[text.title().lower()]
         predictions.append(text)
         if len(predictions)== 10:
-            os.system('cls')
+            os.system('clear')
             print("\nDone")
             print(emotion_dict)
             print("predictions = ",predictions)

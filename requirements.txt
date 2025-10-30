@@ -1,0 +1,6 @@
+opencv-python
+tensorflow==1.15.0
+numpy
+pandas
+pygame
+keyboard

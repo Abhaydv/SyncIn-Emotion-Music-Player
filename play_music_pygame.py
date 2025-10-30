@@ -1,6 +1,5 @@
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-import keyboard  # using module keyboard
 import pygame
 import pandas as pd
 import random
@@ -13,42 +12,68 @@ def main(emotion_num):
 
     df_top = (df.columns)[0]
     count = df[df_top].count()
-    random_index=random.randrange(0, count, 1)
-    song_name = df[df_top][random_index]
-
-    path='songs/'+song_name+'.mp3'
-
-    pygame.mixer.music.load(path)
+    
+    # Try to load a valid song, skip corrupted files
+    max_attempts = 10
+    for attempt in range(max_attempts):
+        random_index=random.randrange(0, count, 1)
+        song_name = df[df_top][random_index]
+        path='songs/'+song_name+'.mp3'
+        
+        try:
+            pygame.mixer.music.load(path)
+            break
+        except pygame.error as e:
+            print(f"Skipping corrupted file: {song_name}")
+            if attempt == max_attempts - 1:
+                print("Could not find a valid song file.")
+                return
+            continue
+    
     print("Playing: ",song_name)
     print("Actions: ")
     print("\tP: pause")
     print("\tR: resume")
     print("\tS: Stop")
     print("\tE: exit")
+    print("\tQ: quit")
+    
     pygame.mixer.music.play()
-    while pygame.mixer.music.get_busy():
-        if keyboard.is_pressed('p'):
-            pygame.mixer.music.pause()
-            os.system('cls')
-            print("Playing: ", song_name)
-            print("Paused")
-            print("\tPress 'r' to resume")
-            continue
-        if keyboard.is_pressed('r'):
-            pygame.mixer.music.unpause()
-            os.system('cls')
-            print("Playing: ", song_name)
-            print("resumed")
-            print("\tPress 'e' to exit")
-            print("\tPress 's' to stop")
-            print("\tPress 'p' to pause")
-            continue
-        if keyboard.is_pressed('s'):
-            pygame.mixer.music.stop()
-            print("You Pressed 'Stop' Key!")
-            # print("\tNow song will play from starting")
-            continue
-        if keyboard.is_pressed('e'):
-            print("You Pressed 'Exit' Key!")
-            break  # finishing the loop
-        continue
+    
+    # Create a small window for event handling
+    screen = pygame.display.set_mode((300, 100))
+    pygame.display.set_caption("Music Player Controls")
+    clock = pygame.time.Clock()
+    
+    running = True
+    paused = False
+    
+    while running and pygame.mixer.music.get_busy():
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_p:
+                    if not paused:
+                        pygame.mixer.music.pause()
+                        paused = True
+                        print("Paused - Press 'r' to resume")
+                elif event.key == pygame.K_r:
+                    if paused:
+                        pygame.mixer.music.unpause()
+                        paused = False
+                        print("Resumed")
+                elif event.key == pygame.K_s:
+                    pygame.mixer.music.stop()
+                    print("Stopped")
+                elif event.key == pygame.K_e or event.key == pygame.K_q:
+                    print("Exiting...")
+                    running = False
+        
+        # Fill screen with a simple background
+        screen.fill((50, 50, 50))
+        pygame.display.flip()
+        clock.tick(30)
+    
+    pygame.mixer.music.stop()
+    pygame.quit()
