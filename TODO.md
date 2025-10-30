@@ -3,6 +3,7 @@
 ## 🚨 PRIORITY 1: Core Multimodal Features (Start Here!)
 
 ### Week 1: Audio Emotion Recognition
+
 - [ ] Install audio libraries: `pip install pyaudio librosa soundfile`
 - [ ] Create `src/emotion_detection/audio_emotion.py`
 - [ ] Implement microphone input capture
@@ -12,6 +13,7 @@
 - [ ] Integrate with main application
 
 ### Week 2: Text Emotion Recognition
+
 - [ ] Install NLP libraries: `pip install transformers torch nltk`
 - [ ] Create `src/emotion_detection/text_emotion.py`
 - [ ] Download pre-trained BERT/RoBERTa emotion model
@@ -20,6 +22,7 @@
 - [ ] Integrate with main application
 
 ### Week 3: Basic Multimodal Fusion
+
 - [ ] Create `src/fusion/multimodal_fusion.py`
 - [ ] Implement simple weighted average fusion
 - [ ] Combine facial + audio + text emotions
@@ -31,6 +34,7 @@
 ## 🚨 PRIORITY 2: Music Emotion Recognition
 
 ### Week 4-5: Music Analysis
+
 - [ ] Install: `pip install librosa essentia spotipy`
 - [ ] Create `src/music_analysis/music_emotion_recognition.py`
 - [ ] Extract audio features from songs (tempo, energy, valence)
@@ -39,6 +43,7 @@
 - [ ] Create `music_emotion_database.json`
 
 ### Week 6: Music Metadata
+
 - [ ] Get Spotify API credentials
 - [ ] Create `src/music_analysis/music_metadata.py`
 - [ ] Fetch metadata for all songs
@@ -50,6 +55,7 @@
 ## 🚨 PRIORITY 3: Advanced Fusion & Recommendation
 
 ### Week 7-8: Attention-Based Fusion
+
 - [ ] Research attention mechanisms
 - [ ] Implement attention fusion network
 - [ ] Train on multimodal dataset
@@ -57,6 +63,7 @@
 - [ ] Test and compare with simple fusion
 
 ### Week 9-10: Smart Recommendation
+
 - [ ] Create `src/recommendation/recommendation_engine.py`
 - [ ] Implement emotion-to-music matching
 - [ ] Add mood regulation strategies
@@ -68,6 +75,7 @@
 ## 🚨 PRIORITY 4: UI & Framework
 
 ### Week 11-12: Professional GUI
+
 - [ ] Install: `pip install PyQt5` or `customtkinter`
 - [ ] Design new UI mockups
 - [ ] Implement multi-panel dashboard
@@ -76,6 +84,7 @@
 - [ ] Add settings panel
 
 ### Week 13: API Development
+
 - [ ] Install: `pip install fastapi uvicorn`
 - [ ] Create `src/api/app.py`
 - [ ] Add REST endpoints for each modality
@@ -87,6 +96,7 @@
 ## 🚨 PRIORITY 5: Testing & Documentation
 
 ### Week 14-15: Testing
+
 - [ ] Write unit tests for each module
 - [ ] Integration tests for fusion pipeline
 - [ ] Performance benchmarking
@@ -94,6 +104,7 @@
 - [ ] Bug fixes and optimization
 
 ### Week 16: Documentation
+
 - [ ] Update README with new features
 - [ ] Write API documentation
 - [ ] Create user guide
@@ -105,6 +116,7 @@
 ## 📦 Quick Start Tasks (Do This Weekend!)
 
 ### Saturday: Project Restructuring
+
 - [ ] Create new folder structure:
   ```
   mkdir -p src/{emotion_detection,music_analysis,fusion,recommendation,gui,api}
@@ -120,6 +132,7 @@
 - [ ] Update imports in all files
 
 ### Sunday: Audio Emotion (MVP)
+
 - [ ] Install audio libraries
 - [ ] Create basic audio recorder (10 seconds)
 - [ ] Download dataset: RAVDESS or TESS
@@ -156,6 +169,7 @@
 ## 🛠️ Development Environment Setup
 
 ### Required Installations
+
 ```bash
 # Audio processing
 pip install pyaudio librosa soundfile sounddevice
@@ -184,6 +198,7 @@ pip install pytest pytest-cov
 ```
 
 ### GPU Setup (Recommended)
+
 ```bash
 # For CUDA-enabled GPU
 pip install tensorflow-gpu torch torchvision torchaudio
@@ -193,20 +208,20 @@ pip install tensorflow-gpu torch torchvision torchaudio
 
 ## 📊 Progress Tracking
 
-| Feature | Status | Priority | Estimated Time |
-|---------|--------|----------|----------------|
-| Facial Emotion | ✅ Done | High | - |
-| Audio Emotion | ⏸️ Not Started | High | 1 week |
-| Text Emotion | ⏸️ Not Started | High | 1 week |
-| Biosignals | ⏸️ Not Started | Low | 2 weeks |
-| Music Emotion | ⏸️ Not Started | High | 2 weeks |
-| Basic Fusion | ⏸️ Not Started | High | 1 week |
-| Attention Fusion | ⏸️ Not Started | Medium | 2 weeks |
-| Recommendation | ⏸️ Not Started | High | 2 weeks |
-| GUI Redesign | ⏸️ Not Started | Medium | 2 weeks |
-| API Development | ⏸️ Not Started | Low | 1 week |
-| Testing | ⏸️ Not Started | High | 2 weeks |
-| Documentation | ⏸️ Not Started | Medium | 1 week |
+| Feature          | Status         | Priority | Estimated Time |
+| ---------------- | -------------- | -------- | -------------- |
+| Facial Emotion   | ✅ Done        | High     | -              |
+| Audio Emotion    | ⏸️ Not Started | High     | 1 week         |
+| Text Emotion     | ⏸️ Not Started | High     | 1 week         |
+| Biosignals       | ⏸️ Not Started | Low      | 2 weeks        |
+| Music Emotion    | ⏸️ Not Started | High     | 2 weeks        |
+| Basic Fusion     | ⏸️ Not Started | High     | 1 week         |
+| Attention Fusion | ⏸️ Not Started | Medium   | 2 weeks        |
+| Recommendation   | ⏸️ Not Started | High     | 2 weeks        |
+| GUI Redesign     | ⏸️ Not Started | Medium   | 2 weeks        |
+| API Development  | ⏸️ Not Started | Low      | 1 week         |
+| Testing          | ⏸️ Not Started | High     | 2 weeks        |
+| Documentation    | ⏸️ Not Started | Medium   | 1 week         |
 
 **Overall Progress:** 8% (1/12 major features)
 
@@ -215,17 +230,20 @@ pip install tensorflow-gpu torch torchvision torchaudio
 ## 🎓 Learning Resources (Start Here)
 
 ### Must-Watch Videos
+
 1. "Multimodal Deep Learning" - Stanford CS231n
 2. "Attention Mechanisms Explained" - StatQuest
 3. "Music Information Retrieval" - ISMIR tutorials
 4. "Speech Emotion Recognition" - Papers with Code
 
 ### Must-Read Papers (Priority Order)
+
 1. "Multimodal Machine Learning: A Survey" (2018)
 2. "Music Emotion Recognition: State of the Art" (2020)
 3. "Attention-based Multimodal Fusion for Video Description" (2017)
 
 ### Practice Datasets (Download These)
+
 1. RAVDESS (Audio-Visual Emotions)
 2. GoEmotions (Text Emotions)
 3. Million Song Dataset (Music Features)
@@ -235,12 +253,14 @@ pip install tensorflow-gpu torch torchvision torchaudio
 ## 💡 Quick Wins (Easy Implementations)
 
 ### This Week
+
 1. ✅ Add audio recording button to current UI
 2. ✅ Display emotion from audio alongside facial emotion
 3. ✅ Show both emotions side-by-side
 4. ✅ Average the two for final prediction
 
 ### Next Week
+
 1. ✅ Add text box for user input
 2. ✅ Analyze sentiment from text
 3. ✅ Combine facial + audio + text (simple average)
@@ -263,6 +283,7 @@ pip install tensorflow-gpu torch torchvision torchaudio
 ## 🏆 Success Criteria
 
 ### Must Have (MVP)
+
 - [x] Facial emotion recognition
 - [ ] Audio emotion recognition
 - [ ] Text emotion recognition
@@ -271,6 +292,7 @@ pip install tensorflow-gpu torch torchvision torchaudio
 - [ ] Music recommendation based on fused emotions
 
 ### Should Have
+
 - [ ] Attention-based fusion
 - [ ] Temporal context awareness
 - [ ] User feedback learning
@@ -278,6 +300,7 @@ pip install tensorflow-gpu torch torchvision torchaudio
 - [ ] Playlist generation
 
 ### Nice to Have
+
 - [ ] Biosignal integration
 - [ ] Mobile app
 - [ ] Cloud API

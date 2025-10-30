@@ -10,6 +10,7 @@
 ## 🔬 Research Focus
 
 This project implements a **deep learning framework** that:
+
 - 🎭 Detects user emotions from **multiple modalities** (facial expressions, voice, text, biosignals)
 - 🎵 Analyzes emotions **within music tracks** using audio features and lyrics
 - 🧠 Employs **attention-based multimodal fusion** for accurate emotion prediction
@@ -21,6 +22,7 @@ This project implements a **deep learning framework** that:
 ## 🎯 Features
 
 ### Current (v1.0)
+
 - ✅ **Real-time Facial Emotion Detection**: Webcam-based facial expression analysis
 - ✅ **AI-Powered Recognition**: TensorFlow CNN for emotion classification
 - ✅ **Automatic Music Selection**: Mood-based song recommendations
@@ -30,6 +32,7 @@ This project implements a **deep learning framework** that:
 - ✅ **Cross-Platform**: macOS, Linux, and Windows support
 
 ### Upcoming (v2.0 - Multimodal) 🚀
+
 - 🔄 **Audio Emotion Recognition**: Voice/speech emotion detection
 - 🔄 **Text Sentiment Analysis**: NLP-based emotion from text input
 - 🔄 **Music Emotion Recognition**: Analyze emotions IN music tracks
