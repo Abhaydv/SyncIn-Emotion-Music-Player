@@ -1,20 +1,45 @@
-# 🎵 SyncIn - Emotion-Based Music Player
+# 🎵 A Deep Learning Framework for Emotion Recognition in Music Using Multimodal Data Fusion
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange.svg)](https://tensorflow.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)](ROADMAP.md)
 
-**SyncIn** is an intelligent music player that uses **Computer Vision** and **Emotion Recognition** to automatically play music based on your mood! Simply look at your webcam, let the AI detect your emotion, and enjoy songs that match your feelings.
+**SyncIn** is an advanced **multimodal emotion recognition framework** that combines Computer Vision, Audio Processing, Natural Language Processing, and Music Information Retrieval to create an intelligent, emotion-aware music recommendation system.
+
+## 🔬 Research Focus
+
+This project implements a **deep learning framework** that:
+- 🎭 Detects user emotions from **multiple modalities** (facial expressions, voice, text, biosignals)
+- 🎵 Analyzes emotions **within music tracks** using audio features and lyrics
+- 🧠 Employs **attention-based multimodal fusion** for accurate emotion prediction
+- 🎯 Recommends music using **context-aware deep learning** techniques
+
+> **Current Version (v1.0):** Facial emotion recognition ✅  
+> **Roadmap:** See [ROADMAP.md](ROADMAP.md) for complete multimodal implementation plan
 
 ## 🎯 Features
 
-- **Real-time Emotion Detection**: Uses your webcam to detect facial expressions
-- **AI-Powered Recognition**: Built with TensorFlow for accurate emotion classification
-- **Automatic Music Selection**: Plays songs matching your detected mood
-- **Three Emotion Categories**: Angry, Happy, and Neutral/Sad
-- **Interactive Music Controls**: Pause, resume, stop, and exit functionality
-- **Error Handling**: Automatically skips corrupted audio files
-- **Cross-Platform**: Works on macOS, Linux, and Windows
+### Current (v1.0)
+- ✅ **Real-time Facial Emotion Detection**: Webcam-based facial expression analysis
+- ✅ **AI-Powered Recognition**: TensorFlow CNN for emotion classification
+- ✅ **Automatic Music Selection**: Mood-based song recommendations
+- ✅ **Three Emotion Categories**: Angry, Happy, and Neutral/Sad
+- ✅ **Interactive Music Controls**: Full playback control with GUI
+- ✅ **Error Handling**: Robust audio file processing
+- ✅ **Cross-Platform**: macOS, Linux, and Windows support
+
+### Upcoming (v2.0 - Multimodal) 🚀
+- 🔄 **Audio Emotion Recognition**: Voice/speech emotion detection
+- 🔄 **Text Sentiment Analysis**: NLP-based emotion from text input
+- 🔄 **Music Emotion Recognition**: Analyze emotions IN music tracks
+- 🔄 **Attention-Based Fusion**: Deep learning multimodal integration
+- 🔄 **Biosignal Integration**: Heart rate & GSR emotion detection (optional)
+- 🔄 **Context Awareness**: Temporal and environmental context
+- 🔄 **Advanced Recommendations**: Mood regulation & enhancement strategies
+- 🔄 **Professional Dashboard**: Real-time multimodal visualization
+
+📋 **See [TODO.md](TODO.md) for detailed implementation checklist**
 
 ## 🚀 Quick Start
 
