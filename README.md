@@ -276,9 +276,9 @@ This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**Bhargav Sah**
+**Abhay yadav**
 
-- GitHub: [@bhargav59](https://github.com/bhargav59)
+- GitHub: 
 - Portfolio: [bhargav59.github.io/Portfolio](https://bhargav59.github.io/Portfolio/)
 
 ## 🙏 Acknowledgments
