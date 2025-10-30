@@ -278,7 +278,7 @@ This project is open source and available under the MIT License.
 
 **Abhay yadav**
 
-- GitHub: 
+- GitHub: https://github.com/Abhaydv
 - Portfolio: [bhargav59.github.io/Portfolio](https://bhargav59.github.io/Portfolio/)
 
 ## 🙏 Acknowledgments
