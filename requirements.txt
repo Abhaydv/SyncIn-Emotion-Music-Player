@@ -13,6 +13,7 @@ scipy
 # NLP for text emotion
 transformers
 torch
+tf-keras  # Keras compatibility for transformers
 
 # Music playback
 pygame

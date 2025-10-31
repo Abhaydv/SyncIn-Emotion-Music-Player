@@ -1,0 +1,506 @@
+{
+  "Easier": {
+    "features": {
+      "tempo": 89.10290948275862,
+      "spectral_centroid_mean": 1241.9471323233374,
+      "spectral_rolloff_mean": 2495.984907120743,
+      "zcr_mean": 0.05837908765479876,
+      "mfcc_mean": -5.357142448425293,
+      "chroma_mean": 0.32698550820350647,
+      "energy_mean": 0.1504756659269333
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "I Knew You Were Trouble": {
+    "features": {
+      "tempo": 123.046875,
+      "spectral_centroid_mean": 669.6468079510645,
+      "spectral_rolloff_mean": 1157.9513313600523,
+      "zcr_mean": 0.02151649876644737,
+      "mfcc_mean": -6.405508995056152,
+      "chroma_mean": 0.3594144284725189,
+      "energy_mean": 0.05916709452867508
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "love": {
+    "features": {
+      "tempo": 161.4990234375,
+      "spectral_centroid_mean": 3025.5376170638438,
+      "spectral_rolloff_mean": 6288.603640340799,
+      "zcr_mean": 0.14007927389705882,
+      "mfcc_mean": -10.235658645629883,
+      "chroma_mean": 0.3031355142593384,
+      "energy_mean": 0.08834521472454071
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Look What You Made Me Do": {
+    "features": {
+      "tempo": 129.19921875,
+      "spectral_centroid_mean": 1640.4957300924436,
+      "spectral_rolloff_mean": 3169.239169377661,
+      "zcr_mean": 0.08778102626741487,
+      "mfcc_mean": -8.282670974731445,
+      "chroma_mean": 0.3798373341560364,
+      "energy_mean": 0.11671433597803116
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Ek Main Aur Ekk Tu": {
+    "features": {
+      "tempo": 135.99917763157896,
+      "spectral_centroid_mean": 2326.2321944201394,
+      "spectral_rolloff_mean": 4968.286624117163,
+      "zcr_mean": 0.11656732234423374,
+      "mfcc_mean": -5.797924041748047,
+      "chroma_mean": 0.3752281069755554,
+      "energy_mean": 0.15511047840118408
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Ae Dil Hai Mushkil": {
+    "features": {
+      "tempo": 123.046875,
+      "spectral_centroid_mean": 1361.8212822450075,
+      "spectral_rolloff_mean": 2886.1408812342784,
+      "zcr_mean": 0.0624943311000387,
+      "mfcc_mean": -15.608345985412598,
+      "chroma_mean": 0.2257997840642929,
+      "energy_mean": 0.041279878467321396
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Vapor": {
+    "features": {
+      "tempo": 103.359375,
+      "spectral_centroid_mean": 2232.0235986741104,
+      "spectral_rolloff_mean": 4710.346517179035,
+      "zcr_mean": 0.10240149719427244,
+      "mfcc_mean": 2.5153157711029053,
+      "chroma_mean": 0.29602229595184326,
+      "energy_mean": 0.15513736009597778
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Justin Timberlake - CAN T STOP THE FEELING (From DreamWorks Animation s Trolls ) (Official Video)": {
+    "features": {
+      "tempo": 112.34714673913044,
+      "spectral_centroid_mean": 2479.500694573437,
+      "spectral_rolloff_mean": 4905.303671633127,
+      "zcr_mean": 0.1444152265141254,
+      "mfcc_mean": -7.670085906982422,
+      "chroma_mean": 0.4088640809059143,
+      "energy_mean": 0.09511513262987137
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "One Direction - Live While We re Young": {
+    "features": {
+      "tempo": 123.046875,
+      "spectral_centroid_mean": 2467.3588818088037,
+      "spectral_rolloff_mean": 5018.4113210199785,
+      "zcr_mean": 0.12671729876160992,
+      "mfcc_mean": -3.4720664024353027,
+      "chroma_mean": 0.4487555921077728,
+      "energy_mean": 0.13081181049346924
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Martin Garrix - Scared To Be Lonely feat. Dua Lipa": {
+    "features": {
+      "tempo": 135.99917763157896,
+      "spectral_centroid_mean": 2083.9860857677722,
+      "spectral_rolloff_mean": 4341.890411849361,
+      "zcr_mean": 0.10111919202302631,
+      "mfcc_mean": -8.065139770507812,
+      "chroma_mean": 0.285489022731781,
+      "energy_mean": 0.12331699579954147
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Jet Black Heart": {
+    "features": {
+      "tempo": 151.99908088235293,
+      "spectral_centroid_mean": 2565.0735679547893,
+      "spectral_rolloff_mean": 5194.476923042038,
+      "zcr_mean": 0.13645155584849072,
+      "mfcc_mean": 1.6333667039871216,
+      "chroma_mean": 0.4238997995853424,
+      "energy_mean": 0.18269914388656616
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Youngblood": {
+    "features": {
+      "tempo": 123.046875,
+      "spectral_centroid_mean": 2170.800680789622,
+      "spectral_rolloff_mean": 4429.6065481085525,
+      "zcr_mean": 0.09525074678308823,
+      "mfcc_mean": -17.318862915039062,
+      "chroma_mean": 0.25473204255104065,
+      "energy_mean": 0.05600893869996071
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Stitches": {
+    "features": {
+      "tempo": 151.99908088235293,
+      "spectral_centroid_mean": 1673.412134243947,
+      "spectral_rolloff_mean": 3201.3139754256968,
+      "zcr_mean": 0.07300182614164087,
+      "mfcc_mean": -12.312317848205566,
+      "chroma_mean": 0.2987949252128601,
+      "energy_mean": 0.04237315058708191
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Lie To Me": {
+    "features": {
+      "tempo": 107.666015625,
+      "spectral_centroid_mean": 2370.2937441346107,
+      "spectral_rolloff_mean": 4784.2794034503195,
+      "zcr_mean": 0.09735428659539473,
+      "mfcc_mean": -4.834491729736328,
+      "chroma_mean": 0.29400894045829773,
+      "energy_mean": 0.11942073702812195
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Want You Back": {
+    "features": {
+      "tempo": 198.76802884615384,
+      "spectral_centroid_mean": 2367.0466335762094,
+      "spectral_rolloff_mean": 4734.92136857827,
+      "zcr_mean": 0.11487269918246903,
+      "mfcc_mean": -4.766119480133057,
+      "chroma_mean": 0.3542746901512146,
+      "energy_mean": 0.08102352917194366
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Beside You": {
+    "features": {
+      "tempo": 151.99908088235293,
+      "spectral_centroid_mean": 2376.941133058429,
+      "spectral_rolloff_mean": 4894.903734520124,
+      "zcr_mean": 0.11502462570143189,
+      "mfcc_mean": 0.7919363975524902,
+      "chroma_mean": 0.4486764967441559,
+      "energy_mean": 0.21295638382434845
+    },
+    "emotions": {
+      "angry": 0.6,
+      "happy": 0.2,
+      "sad": 0.1,
+      "neutral": 0.1
+    },
+    "dominant_emotion": "angry"
+  },
+  "Ilahi": {
+    "features": {
+      "tempo": 129.19921875,
+      "spectral_centroid_mean": 2027.0541050421657,
+      "spectral_rolloff_mean": 4534.155915912829,
+      "zcr_mean": 0.09087246637964397,
+      "mfcc_mean": -0.9678195118904114,
+      "chroma_mean": 0.42572885751724243,
+      "energy_mean": 0.07124964892864227
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Pehla Pyaar": {
+    "features": {
+      "tempo": 123.046875,
+      "spectral_centroid_mean": 1365.3345469188978,
+      "spectral_rolloff_mean": 2882.682568812887,
+      "zcr_mean": 0.04654809343556501,
+      "mfcc_mean": -4.361110210418701,
+      "chroma_mean": 0.3579080104827881,
+      "energy_mean": 0.09808208793401718
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Kygo_Selena_Gomez_-_It_Ain_t_Me_with_Selena_Gomez_Audio_(mp3.pm)": {
+    "features": {
+      "tempo": 99.38401442307692,
+      "spectral_centroid_mean": 2312.982080697788,
+      "spectral_rolloff_mean": 4621.580387269011,
+      "zcr_mean": 0.11990857198142414,
+      "mfcc_mean": -10.960230827331543,
+      "chroma_mean": 0.3253871202468872,
+      "energy_mean": 0.0654967650771141
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Alan Walker, Sabrina Carpenter & Farruko - On My Way": {
+    "features": {
+      "tempo": 112.34714673913044,
+      "spectral_centroid_mean": 2277.923720369874,
+      "spectral_rolloff_mean": 4670.680090369824,
+      "zcr_mean": 0.09475528492647059,
+      "mfcc_mean": -9.927030563354492,
+      "chroma_mean": 0.2567911148071289,
+      "energy_mean": 0.17256200313568115
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Bekhayali": {
+    "features": {
+      "tempo": 172.265625,
+      "spectral_centroid_mean": 1377.7490721319757,
+      "spectral_rolloff_mean": 2871.090972239019,
+      "zcr_mean": 0.0449105372000774,
+      "mfcc_mean": -2.751359701156616,
+      "chroma_mean": 0.23104886710643768,
+      "energy_mean": 0.17789460718631744
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Better Man": {
+    "features": {
+      "tempo": 129.19921875,
+      "spectral_centroid_mean": 3024.626117058485,
+      "spectral_rolloff_mean": 6259.65381539643,
+      "zcr_mean": 0.14291788107101394,
+      "mfcc_mean": -10.024179458618164,
+      "chroma_mean": 0.29130032658576965,
+      "energy_mean": 0.10353778302669525
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Teeth": {
+    "features": {
+      "tempo": 143.5546875,
+      "spectral_centroid_mean": 1290.1974765760333,
+      "spectral_rolloff_mean": 2698.0253520764804,
+      "zcr_mean": 0.04501522288602941,
+      "mfcc_mean": 1.5107938051223755,
+      "chroma_mean": 0.3346417546272278,
+      "energy_mean": 0.23859001696109772
+    },
+    "emotions": {
+      "angry": 0.6,
+      "happy": 0.2,
+      "sad": 0.1,
+      "neutral": 0.1
+    },
+    "dominant_emotion": "angry"
+  },
+  "Jonas Brothers - Sucker": {
+    "features": {
+      "tempo": 135.99917763157896,
+      "spectral_centroid_mean": 2415.536294492706,
+      "spectral_rolloff_mean": 5001.2280915912825,
+      "zcr_mean": 0.1020250822368421,
+      "mfcc_mean": -4.048799514770508,
+      "chroma_mean": 0.2965276837348938,
+      "energy_mean": 0.17316322028636932
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "In the End": {
+    "features": {
+      "tempo": 103.359375,
+      "spectral_centroid_mean": 1983.2131391128141,
+      "spectral_rolloff_mean": 3852.210039546246,
+      "zcr_mean": 0.11270151049729102,
+      "mfcc_mean": -4.3206257820129395,
+      "chroma_mean": 0.36146003007888794,
+      "energy_mean": 0.13336549699306488
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "Attention": {
+    "features": {
+      "tempo": 99.38401442307692,
+      "spectral_centroid_mean": 2106.8538808486264,
+      "spectral_rolloff_mean": 4624.538702713816,
+      "zcr_mean": 0.08242845092395511,
+      "mfcc_mean": -19.537181854248047,
+      "chroma_mean": 0.22608977556228638,
+      "energy_mean": 0.06502203643321991
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "We Don t Talk Anymore": {
+    "features": {
+      "tempo": 99.38401442307692,
+      "spectral_centroid_mean": 1893.6233926469197,
+      "spectral_rolloff_mean": 4167.4831331329815,
+      "zcr_mean": 0.061085798422987614,
+      "mfcc_mean": -5.8599982261657715,
+      "chroma_mean": 0.28857529163360596,
+      "energy_mean": 0.1397133469581604
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  },
+  "DNCE - Cake By The Ocean": {
+    "features": {
+      "tempo": 107.666015625,
+      "spectral_centroid_mean": 2058.3430426731065,
+      "spectral_rolloff_mean": 3825.5935338259483,
+      "zcr_mean": 0.12096260944756192,
+      "mfcc_mean": -8.870963096618652,
+      "chroma_mean": 0.3330647647380829,
+      "energy_mean": 0.08312927931547165
+    },
+    "emotions": {
+      "neutral": 0.6,
+      "happy": 0.2,
+      "sad": 0.15,
+      "angry": 0.05
+    },
+    "dominant_emotion": "neutral"
+  }
+}
